@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Rock College</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">The Rock College</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#admissions">Admissions</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#faculty">People</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to The Rock College</h1>
+      <p>Inspiring Excellence • Empowering Faith • Building Leaders</p>
+      <a href="#admissions" class="btn">Apply Now</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>The Rock College is a full-boarding Christian high school dedicated to academic excellence, spiritual formation, and holistic growth.</p>
+  </section>
+
+  <section id="admissions" class="section highlight">
+    <h2>Admissions</h2>
+    <p>We welcome students of diverse backgrounds who aspire to blend rigorous education with Christian values.</p>
+    <a href="#contact" class="btn-outline">Start Application</a>
+  </section>
+
+  <section id="academics" class="section">
+    <h2>Academics</h2>
+    <ul class="features">
+      <li><strong>Curriculum:</strong> Honors, AP, electives</li>
+      <li><strong>Faith:</strong> Daily chapel, Bible study</li>
+      <li><strong>Clubs:</strong> Music, sports, science, tech</li>
+    </ul>
+  </section>
+
+  <section id="news" class="section highlight">
+    <h2>News & Updates</h2>
+    <div class="news-items">
+      <article>
+        <h3>🏆 Regional Math Contest Winners</h3>
+        <p>Our students secured top honors at the state level.</p>
+      </article>
+      <article>
+        <h3>🎭 Spring Musical: "Sound of Music"</h3>
+        <p>Coming this April — don't miss it!</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section">
+    <h2>Testimonials</h2>
+    <div class="carousel">
+      <button class="carousel-btn prev">‹</button>
+      <div class="carousel-track">
+        <div class="slide">
+          <blockquote>
+            <p>“The Rock College gave me the discipline and confidence to succeed.”</p>
+            <cite>– Ruth Okeke, Class of 2020</cite>
+          </blockquote>
+        </div>
+        <div class="slide">
+          <blockquote>
+            <p>“As a parent, I’m proud of my daughter’s academic and spiritual growth.”</p>
+            <cite>– Mr. Adeboye</cite>
+          </blockquote>
+        </div>
+      </div>
+      <button class="carousel-btn next">›</button>
+    </div>
+  </section>
+
+  <section id="faculty" class="section">
+    <h2>Our Faculty & Alumni</h2>
+    <div class="tabs">
+      <button data-tab="faculty" class="tab-btn active">Faculty</button>
+      <button data-tab="alumni" class="tab-btn">Alumni</button>
+    </div>
+    <div class="tab-content">
+      <ul id="faculty-list" class="content-list">
+        <li><strong>Mrs. Sarah Daniels</strong> – Principal</li>
+        <li><strong>Mr. John Adeyemi</strong> – Math Dept. Head</li>
+        <li><strong>Mrs. Grace Olatunde</strong> – Sciences Coordinator</li>
+        <li><strong>Mr. Peter Eze</strong> – Chaplain</li>
+      </ul>
+      <ul id="alumni-list" class="content-list hide">
+        <li>Dr. Tola Akinwale – Surgeon, UK</li>
+        <li>Chidinma Ogbonna – Software Engineer, Google</li>
+        <li>Michael Adebayo – Missionary, South Sudan</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="events" class="section highlight">
+    <h2>Upcoming Events</h2>
+    <div id="calendar"></div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label>Name:<input type="text" name="name" required></label>
+      <label>Email:<input type="email" name="email" required></label>
+      <label>Message:<textarea name="message" required></textarea></label>
+      <button type="submit">Send Message</button>
+      <p id="form-status"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Rock College. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
